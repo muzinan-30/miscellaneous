@@ -1,0 +1,15 @@
+Duplicate entry '333' for key 'user.PRIMARY'
+Duplicate entry '333' for key 'user.PRIMARY'
+Data too long for column 'user_id' at row 1
+Incorrect string value: '\xCCBD99\xCC...' for column 'pwd' at row 1
+Incorrect string value: '\xCC\x03' for column 'pwd' at row 1
+Data too long for column 'user_id' at row 1
+Incorrect string value: '\xCCBD99B...' for column 'pwd' at row 1
+Incorrect string value: '\xCCBD99B...' for column 'pwd' at row 1
+Incorrect string value: '\xCCBD99B...' for column 'pwd' at row 1
+Incorrect string value: '\xCCBD99B...' for column 'pwd' at row 1
+Incorrect string value: '\xCCBD99B...' for column 'pwd' at row 1
+Incorrect string value: '\xCCBD99B...' for column 'pwd' at row 1
+Unknown column 'lsz' in 'where clause'
+Duplicate entry 'lsz' for key 'user.weiyi'
+Duplicate entry 'lsz' for key 'user.weiyi'
