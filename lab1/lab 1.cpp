@@ -8,11 +8,13 @@ using namespace std;
 template<class Type>
 SeqList<Type>::SeqList(int sz)//构造函数
 {
+//有参数的构造函数，创建大小为sz的type类型的数组
 	if (sz > 0)
 	{
 		MaxSize = sz;
 		last = -1;
 		data = new Type[MaxSize];
+		//存在分配失败的情况
 		if (data == NULL)
 		{
 			MaxSize = 0;
