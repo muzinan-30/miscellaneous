@@ -1,12 +1,15 @@
 #pragma once
 template<class Type>
+/*
+é¡ºåºè¡¨å®šä¹‰å’Œå®ç°
+*/
 class SeqList
 {
 public:
-	Type* data;//Ë³Ğò±í´æ´¢Êı×é
-	int MaxSize;//×î´óÔÊĞí³¤¶È
-	int last;//µ±Ç°×îºóÔªËØÏÂ±ê
-	//×ñ´ÓC++Ô¼¶¨£¬´Ó0¿ªÊ¼´æ´¢£¬ÓÃ-1±íÊ¾²»´æÔÚÎ»
+	Type* data;//é¡ºåºè¡¨å­˜å‚¨æ•°ç»„
+	int MaxSize;//æœ€å¤§å…è®¸é•¿åº¦
+	int last;//å½“å‰æœ€åå…ƒç´ ä¸‹æ ‡
+	//éµä»C++çº¦å®šï¼Œä»0å¼€å§‹å­˜å‚¨ï¼Œç”¨-1è¡¨ç¤ºä¸å­˜åœ¨ä½
 public:
 	SeqList(int MaxSize = defaultSize);
 	~SeqList() { delete[]data; }
@@ -22,5 +25,5 @@ public:
 	Type Get(int i)
 	{
 		return i<0 || i>last ? NULL : data[i];
-	}//Ëã·¨Ê±¼ä¸´ÔÓ¶ÈÎªO£¨1£©£¬¾ßÓĞËæ»ú´æÈ¡ÌØĞÔ
+	}//ç®—æ³•æ—¶é—´å¤æ‚åº¦ä¸ºOï¼ˆ1ï¼‰ï¼Œé¡ºåºè¡¨å…·æœ‰éšæœºå­˜å–ç‰¹æ€§
 };
