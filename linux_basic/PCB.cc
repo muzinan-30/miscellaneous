@@ -6,7 +6,7 @@
 #include<sys/wait.h>
 //pcb的本质是一个task_struct pid（进程标识符，父进程标识符，用户标识符，组标识符）进程组，进程环境，进程的运行状态等 
 using namespace std;
-//fork() 子进程创建成功时 父进程的fork返回0， 子进程的fork不返回
+//fork() 子进程创建成功时 子进程的fork返回0， 父进程的fork返回pid
 //fork创建失败时 父进程返回－1
 int main(){
     pid_t p1=getpid();
